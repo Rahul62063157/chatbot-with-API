@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="chat-title">
+                <div class="status-indicator"></div>
+                Chatbot
+            </div>
+            <p class="subtitle">We typically reply within a few minutes</p>
+        </div>
+        
+        <div class="chatbox-wrapper">
+            <div class="message-box">
+                <div class="chat response">
+                    <div class="avatar">
+                        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=chatbot" alt="Bot">
+                    </div>
+                    <div class="message-content">
+                        <div class="message-info">
+                            <span class="name">Support Bot</span>
+                            <span class="time">Just now</span>
+                        </div>
+                        <span class="message-text">
+                            Hello! 👋 How can I assist you today?
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="messagebar">
+                <div class="bar-wrapper">
+                    <input type="text" placeholder="Type your message here..." />
+                    <button>
+                        <span class="material-symbols-rounded">send</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
